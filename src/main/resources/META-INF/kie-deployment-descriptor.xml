@@ -6,34 +6,10 @@
     <persistence-mode>JPA</persistence-mode>
     <runtime-strategy>PER_PROCESS_INSTANCE</runtime-strategy>
     <marshalling-strategies/>
-    <event-listeners>
-        <event-listener>
-            <resolver>mvel</resolver>
-            <identifier>new com.redhat.CustomSLAViolationListener()</identifier>
-            <parameters/>
-        </event-listener>
-        <event-listener>
-            <resolver>mvel</resolver>
-            <identifier>new com.redhat.CustomProcessEventListener()</identifier>
-            <parameters/>
-        </event-listener>
-    </event-listeners>
-    <task-event-listeners>
-        <task-event-listener>
-            <resolver>mvel</resolver>
-            <identifier>new com.redhat.CustomTaskMonitorListener()</identifier>
-            <parameters/>
-        </task-event-listener>
-    </task-event-listeners>
+    <event-listeners/>
+    <task-event-listeners/>
     <globals/>
-    <work-item-handlers>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new com.redhat.ExampleWorkItemHandler()</identifier>
-            <parameters/>
-            <name>ExampleWIH</name>
-        </work-item-handler>
-    </work-item-handlers>
+    <work-item-handlers/>
     <environment-entries/>
     <configurations/>
     <required-roles/>
