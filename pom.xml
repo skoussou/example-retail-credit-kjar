@@ -2,10 +2,10 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.redhat</groupId>
-  <artifactId>basic-kjar</artifactId>
-  <version>2.0.0</version>
+  <artifactId>example-retail-credit-kjar</artifactId>
+  <version>1.0.0</version>
   <packaging>kjar</packaging>
-  <name>Basic Startup KJAR</name>
+  <name>Basic Startup KJAR - example-retail-credit-kjar</name>
   <distributionManagement>
     <repository>
       <id>releases</id>
